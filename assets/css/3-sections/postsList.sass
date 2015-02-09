@@ -4,31 +4,115 @@
 
 
   .posts-lockup
-    max-width: 750px
-    +display(flex)
-    margin: 0 auto
-    +align-items(center)
-    +justify-content(space-between)
+    max-width: 960px
+    -webkit-align-items: center
+    align-items: center
+    margin: auto
+    padding: 0
+    list-style: none
+
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
+    -webkit-flex-flow: row wrap
+    justify-content: space-around
+    flex-wrap: wrap
 
     p
       text-align: center
-      padding-top: 180px
+      padding-top: 165px
       text-transform: uppercase
 
 
     .icon-maroon
-      order: 1
+      //order: 1
       +size(175px)
       border-radius: 50%
       background: url(/../assets/img/icons/icon-maroon.jpg)
       background-repeat: no-repeat
       background-position: 50%
-
+      text-align: center
+      margin: 25px auto
 
     .icon-arches
-      order: 2
+      //order: 2
       +size(175px)
       border-radius: 50%
       background-repeat: no-repeat
       background-position: 50%
       background: url(/../assets/img/icons/icon-arches.jpg)
+      margin: 25px auto
+
+    .icon-grandCanyon
+      //order: 3
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-grandCanyon.jpg)
+      margin: 25px auto
+
+    .icon-sequoia
+      //order: 4
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-sequoia.jpg)
+      margin: 25px auto
+
+    .icon-yosemite
+      order: 5
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-yosemite.jpg)
+      margin: 25px auto
+
+    .icon-sf
+      order: 6
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-sf.jpg)
+      margin: 25px auto
+
+    .icon-redwood
+      order: 7
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-redwood.jpg)
+      margin: 25px auto
+
+    .icon-portland
+      order: 8
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-portland.jpg)
+      margin: 25px auto
+
+    .icon-glacier
+      order: 9
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-glacier.jpg)
+      margin: 25px auto
+
+    .icon-yellowstone
+      order: 10
+      +size(175px)
+      border-radius: 50%
+      background-repeat: no-repeat
+      background-position: 50%
+      background: url(/../assets/img/icons/icon-yellowstone.jpg)
+      margin: 25px auto
